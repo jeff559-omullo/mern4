@@ -110,7 +110,7 @@ npm install
 
 3. Install frontend dependencies:
 ```bash
-cd server
+cd client
 npm install
 ```
 
@@ -145,7 +145,12 @@ npm run dev
 
 2. Make your changes and add comments in the code.
 
-3. Initiate a pull request and push your code.
+3. Create a feature branch, submit your pull request.
+```
+git checkout -b feature-branch
+git commit -m "Added new feature"
+git push origin feature-branch
+```
 
 4. Wait for your pull request to be merged.
 
